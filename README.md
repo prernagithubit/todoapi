@@ -23,16 +23,23 @@ A fast, lightweight REST API built with **FastAPI** and **SQLAlchemy**.
 - ✅ Auto-generated Swagger docs
 
 ---
-
 ## 📁 Project Structure
-todo-api/
-├── main.py          # Entry point
-├── database.py      # Database connection
-├── models.py        # Database models
-├── schemas.py       # Pydantic schemas
-└── routers/
-└── todos.py     # API routes
 
+```
+todoapi/
+├── main.py              # App entry point & route registration
+├── database.py          # Database connection & session
+├── models.py            # Database table definitions
+├── schemas.py           # Pydantic request/response schemas
+├── auth.py              # JWT token creation & verification
+├── hashing.py           # Password hashing & verification
+├── requirements.txt     # Project dependencies
+├── .gitignore           # Files to ignore in git
+└── routers/
+    ├── __init__.py      # Makes routers a Python package
+    ├── todos.py         # Todo CRUD routes
+    └── users.py         # User signup & login routes
+```
 ---
 
 ## ⚙️ How to Run
