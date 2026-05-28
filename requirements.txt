@@ -1,9 +1,8 @@
-todoapi/
-├── requirements.txt    ← here
-├── main.py
-├── database.py
-├── models.py
-├── schemas.py
-├── auth.py
-├── hashing.py
-└── routers/
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose
+passlib
+bcrypt
+python-multipart
