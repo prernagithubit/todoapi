@@ -71,3 +71,6 @@ Once the server is running, open:
 - ReDoc → http://127.0.0.1:8000/redoc
 
 ---
+## 🌍 Live API
+- Live URL → https://todoapi-1-bbkz.onrender.com
+- Live Docs → https://todoapi-1-bbkz.onrender.com/docs
